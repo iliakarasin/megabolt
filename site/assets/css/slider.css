@@ -79,11 +79,22 @@
 	right:0px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position:absolute;
+	left:414px;
+	bottom:10px;
+	z-index: 99999999;
+}
 .nivo-controlNav a {
-	position:relative;
-	z-index:9;
+	display:block;
 	cursor:pointer;
+	width:22px;
+	height:22px;
+	background:url('../images/bullets.png') no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:0px;
+	float:left;
 }
 .nivo-controlNav a.active {
-	font-weight:bold;
-}
+	background-position:0 -22px;
