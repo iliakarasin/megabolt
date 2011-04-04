@@ -81,7 +81,7 @@
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
 	position:absolute;
-	left:414px;
+	left:425px;
 	bottom:10px;
 	z-index: 99999999;
 }

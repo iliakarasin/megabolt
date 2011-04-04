@@ -14,12 +14,12 @@ img { border: 0; }
 #header { background: #1a1a1a; padding-top: 20px; padding-bottom: 20px; }
 #header img { display: block; margin: 0 auto; }
 
-#banner { width: 917px; height: 412px; background: #652d8f; margin-top: 10px; color: #fff; }
+#banner { width: 917px; height: 412px; background: #652d8f url('../images/sketchbook-banner.jpg') no-repeat top left; margin-top: 10px; color: #fff; }
 #banner h1 { font-family: "Avante Garde", Arial, Verdana, sans-serif; font-size: 26px; font-weight: bold; margin-top: -20px; }
 #banner h2 { font-family: "Avante Garde", Arial, Verdana, sans-serif; font-size: 20px; }
 #banner p { font-family: "Arial", Helvetica, Verdana, sans-serif; font-size: 12px; line-height: 18px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
 #banner .view-button { float: right; }
-#sketch-descr { float: right; width:390px; margin-right: 30px; margin-top: 100px; }
+#sketch-descr { float: right; width:390px; margin-right: 25px; margin-top: 55px; }
 
 #nav-item { width: 177px; height: 126px; background: url('../images/stripe-bg.png') repeat top right; float: left; margin-right: 8px; margin-top: 10px; }
 #nav-item img { border: none; position: relative; top: 46px; display: block; margin: 0 auto; }
@@ -71,6 +71,6 @@ img { border: 0; }
 #person img { margin: 0; }
 #person span { font-weight: normal; font-size: 14px; }
 
-#search-book { padding-left: 30px; padding-top: 15px; width: 190px; height: 110px; color: #fff; float: left; margin-left: 45px; font-family: "Avante Garde", Arial, Verdana, sans-serif; background: #1a1a1a url('../images/search-corner.png') top left no-repeat; margin-top: 10px; }
-input.submit-button { background: url('../images/search-button.png') no-repeat top left; border: 0; width: 24px; height: 24px; margin-left: -2px; margin-top: 0;}
-input.search { height: 18px; padding: 0; }
+#search-book { padding-left: 25px; padding-right: 5px; padding-top: 15px; width: 190px; height: 120px; color: #fff; float: left; margin-left: 45px; font-family: "Avante Garde", Arial, Verdana, sans-serif; background: #1a1a1a url('../images/search-corner.png') top left no-repeat; margin-top: 10px; }
+button.submit-button { cursor: pointer; text-indent: -9999px; background: #6e0f91 url('../images/search-button.png') no-repeat center top; border: 0; width: 24px; height: 24px; position: relative; left: -2px; top: 0; }
+input.search { height: 18px; padding: 0; position: relative; top: 3px; }
